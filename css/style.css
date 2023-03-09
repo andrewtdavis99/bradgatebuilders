@@ -313,10 +313,20 @@ legend {
   white-space: normal;
 }
 
+@media (min-width: 1200px) {
+  h3,.h3 {
+    font-size: .4rem;
+  }
+}
+
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
   }
+  .nav_h1 {
+      font-size: medium;
+  }
+
 }
 
 progress {
@@ -372,6 +382,7 @@ h1, .h1 {
   font-size: 2.5rem;
 }
 
+
 @media (max-width: 1200px) {
   h1, .h1 {
     font-size: calc(1.375rem + 1.5vw) ;
@@ -389,7 +400,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 1200px) {
@@ -1248,6 +1259,7 @@ pre code {
   .col-lg-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
+    justify-content: space-around;
   }
   .col-lg-5 {
     flex: 0 0 41.66667%;
@@ -1256,6 +1268,7 @@ pre code {
   .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
+    justify-content: space-around;
   }
   .col-lg-7 {
     flex: 0 0 58.33333%;
